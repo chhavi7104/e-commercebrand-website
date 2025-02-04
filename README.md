@@ -9,6 +9,7 @@ A women’s clothing site with responsive design, a chatbot, secure payments, an
 </ul>
 
 <h1> chatbot </h1>
+<p> it will bw the basic chatbot which will be telling about the product and order details.</p>
 <ul>
   <li>python </li>
   <li>lib</li>
