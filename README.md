@@ -19,4 +19,5 @@ A women’s clothing site with responsive design, a chatbot, secure payments, an
  <ul>
  <li>add to cart </li>
  <li>track my order <li>
+   <li>payment portal </li>
  </ul>
