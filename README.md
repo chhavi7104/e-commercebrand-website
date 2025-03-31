@@ -13,7 +13,7 @@ A women’s clothing site with responsive design, a chatbot, secure payments, an
 <ul>
   <li>python </li>
   <li>lib</li>
-  <li>lib </li>
+  <li>lib</li>
 </ul>
 <p> shopping website </p>
  <ul>
