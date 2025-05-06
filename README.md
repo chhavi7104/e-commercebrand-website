@@ -5,7 +5,7 @@ A modern, responsive online shopping platform tailored specifically for female b
 🌐 Features
 🧥 Product Pages
 
-Detailed descriptions
+-Detailed descriptions
 
 Size charts
 
