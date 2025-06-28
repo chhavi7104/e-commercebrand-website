@@ -841,7 +841,7 @@ footer .col a:hover{
 }
 /* Cart Page Styles */
 .cart-header {
-    background-image: url("../imgs/cart-banner.jpg");
+    background-image: url("../imgs/banner-background-pastel-colorful-pink-260nw-2477983387.jpg");
     background-size: cover;
     background-position: center;
     height: 40vh;
@@ -856,12 +856,12 @@ footer .col a:hover{
 .cart-header h2 {
     font-size: 46px;
     line-height: 54px;
-    color: #fff;
+    color: #060000;
 }
 
 .cart-header p {
     font-size: 16px;
-    color: #fff;
+    color: #020000;
 }
 
 #cart table {
@@ -976,7 +976,7 @@ footer .col a:hover{
 
 /* Review Page Styles */
 .review-header {
-    background-image: url("../imgs/review-banner.jpg");
+    background-image: url("../imgs/banner-background-pastel-colorful-pink-260nw-2477983387.jpg");
     background-size: cover;
     background-position: center;
     height: 40vh;
@@ -985,18 +985,18 @@ footer .col a:hover{
     justify-content: center;
     align-items: center;
     padding: 14px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .review-header h2 {
     font-size: 46px;
     line-height: 54px;
-    color: #fff;
+    color: #070303c0;
 }
 
 .review-header p {
     font-size: 16px;
-    color: #fff;
+    color: #130f0f;
 }
 
 #product-details {
@@ -1290,4 +1290,53 @@ footer .col a:hover{
         width: 100%;
         margin-bottom: 10px;
     }
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Buttons */
+button.normal {
+  background-color: #ff9999;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.75rem 1.5rem;
+  margin: 1rem 0.5rem 1rem 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.normal:hover {
+  background-color: #ff6666;
+}
+
+button.normal a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+button.normal h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Headings and Text */
+h3, h4 {
+  margin-top: 1.5rem;
+  color: #333;
+}
+
+span {
+  display: block;
+  margin: 0.5rem 0 1rem;
+  color: #555;
+  line-height: 1.5;
 }
