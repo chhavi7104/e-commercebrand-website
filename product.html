@@ -28,44 +28,32 @@
     <p>Review and manage your items</p>
    </section>
 
-   <section id="product-details" class="section-p1">
-    <div class="single-product-image">
-        <img src="imgs/1_c443a042-e4e0-4891-9138-ac6d1dc6c6b7.webp" width="100%" id="MainImg" alt="">
-        <div class="small-img-group">
-            <div class="small-img-col">
-                <img src="imgs/1_c443a042-e4e0-4891-9138-ac6d1dc6c6b7.webp" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="imgs/1_c7a472f2-22f1-41d5-972c-a59d9ef6f117_360x504.webp" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="imgs/300984596DUSTYPINK_1_800x.webp" width="100%" class="small-img" alt="">
-            </div>
-            <div class="small-img-col">
-                <img src="imgs/-473Wx593H-467099247-blue-MODEL.avif" width="100%" class="small-img" alt="">
-            </div>
-        </div>
-    </div>
-    <div class="single-product-details">
-        <h6>Home / T-Shirt</h6>
-        <h4>Cartoon Astronaut T-Shirt</h4>
-        <h2>$50.00</h2>
-        <select>
-            <option>Select Size</option>
-            <option>XS</option>
-            <option>S</option>
-            <option>M</option>
-            <option>L</option>
-            <option>XL</option>
-        </select>
-        <input type="number" value="1">
-        <button class="normal"><a href="cart.html"><h4>Add To Cart</h4></a></button>
-        <h4>Product Details</h4>
-        <span>100% cotton, Machine wash, Imported, Pull On closure, Ribbed crew neck, Short sleeves, Regular fit, Lightweight fabric</span>
-        <h3>Share This Product</h3>
-        <button class="normal" > <a href="pay.html"> <h4>Buy Now</h4> </a>  </button>
-    </div>
-   </section>
+<section id="product-detail" class="section-p1">
+  <div class="single-product-image">
+    <img id="MainImg" src="" width="60%"  alt="">
+   <!-- <div class="small-img-group" id="thumbnail-container"></div>-->
+  </div>
+  <div class="single-product-details">
+    <h6 id="product-breadcrumb">Home / Category</h6>
+    <h4 id="product-title">Product Name</h4>
+    <div id="product-stars"></div>
+    <h2 id="product-price">$0.00</h2>
+    <select id="product-size">
+      <option>Select Size</option>
+      <option>XS</option>
+      <option>S</option>
+      <option>M</option>
+      <option>L</option>
+      <option>XL</option>
+    </select>
+    <input id="product-quantity" type="number" value="1" min="1">
+    <button id="add-to-cart-btn" class="normal">Add To Cart</button>
+    <button id="buy-now-btn" class="normal">Buy Now</button>
+    <h4>Product Details</h4>
+    <span id="product-description">Details here...</span>
+  </div>
+</section>
+
 
    <section id="reviews" class="section-p1">
     <div class="reviews-container">

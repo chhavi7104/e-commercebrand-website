@@ -29,6 +29,8 @@
    </section>
 
    <section id="checkout" class="section-p1">
+    <div id="payment-cart-items"></div>
+<div id="payment-subtotal"></div>
     <div class="container">
         <div class="billing-details">
             <h3>Billing Details</h3>
@@ -103,28 +105,9 @@
                             <th>Total</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td>Cartoon Astronaut T-Shirt × 1</td>
-                            <td>$50.00</td>
-                        </tr>
-                        <tr>
-                            <td>Blue Short Kurti × 1</td>
-                            <td>$50.00</td>
-                        </tr>
-                        <tr>
-                            <td>Subtotal</td>
-                            <td>$100.00</td>
-                        </tr>
-                        <tr>
-                            <td>Shipping</td>
-                            <td>Free Shipping</td>
-                        </tr>
-                        <tr class="total">
-                            <td>Total</td>
-                            <td>$100.00</td>
-                        </tr>
-                    </tbody>
+                   <tbody id="payment-cart-body">
+    <!-- JS se dynamic items yahan inject honge -->
+</tbody>
                 </table>
             </div>
 
