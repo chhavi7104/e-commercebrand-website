@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Reviews - Shop Style</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section id="header">
+    <a href="#"><img src="imgs/Shop Style logo.png" class="logo" width="120" height="60"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+           <li><a href="javascript:void(0);" onclick="document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });">Contact</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+    </div>
+   </section>
+
+   <section id="page-header" class="review-header">
+    <h2>#CustomerReviews</h2>
+    <p>See what our customers are saying</p>
+   </section>
+
+   <section id="product-details" class="section-p1">
+    <div class="single-product-image">
+        <img src="imgs/1_c443a042-e4e0-4891-9138-ac6d1dc6c6b7.webp" width="100%" id="MainImg" alt="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="imgs/1_c443a042-e4e0-4891-9138-ac6d1dc6c6b7.webp" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="imgs/1_c7a472f2-22f1-41d5-972c-a59d9ef6f117_360x504.webp" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="imgs/300984596DUSTYPINK_1_800x.webp" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="imgs/-473Wx593H-467099247-blue-MODEL.avif" width="100%" class="small-img" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="single-product-details">
+        <h6>Home / T-Shirt</h6>
+        <h4>Cartoon Astronaut T-Shirt</h4>
+        <h2>$50.00</h2>
+        <select>
+            <option>Select Size</option>
+            <option>XS</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+        </select>
+        <input type="number" value="1">
+        <button class="normal"><a href="cart.html">Add To Cart</a></button>
+        <h4>Product Details</h4>
+        <span>100% cotton, Machine wash, Imported, Pull On closure, Ribbed crew neck, Short sleeves, Regular fit, Lightweight fabric</span>
+    </div>
+   </section>
+
+   <section id="reviews" class="section-p1">
+    <div class="reviews-container">
+        <div class="reviews-header">
+            <h3>Customer Reviews</h3>
+            <div class="overall-rating">
+                <div class="rating-stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <span>4.5 out of 5</span>
+                </div>
+                <p>Based on 128 reviews</p>
+            </div>
+            <div class="rating-distribution">
+                <div class="rating-bar">
+                    <span>5 star</span>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 75%;"></div>
+                    </div>
+                    <span>75%</span>
+                </div>
+                <div class="rating-bar">
+                    <span>4 star</span>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 15%;"></div>
+                    </div>
+                    <span>15%</span>
+                </div>
+                <div class="rating-bar">
+                    <span>3 star</span>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 5%;"></div>
+                    </div>
+                    <span>5%</span>
+                </div>
+                <div class="rating-bar">
+                    <span>2 star</span>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 3%;"></div>
+                    </div>
+                    <span>3%</span>
+                </div>
+                <div class="rating-bar">
+                    <span>1 star</span>
+                    <div class="bar-container">
+                        <div class="bar" style="width: 2%;"></div>
+                    </div>
+                    <span>2%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="review-sort">
+            <span>Sort by:</span>
+            <select>
+                <option>Most Recent</option>
+                <option>Highest Rating</option>
+                <option>Lowest Rating</option>
+                <option>Most Helpful</option>
+            </select>
+        </div>
+
+        <div class="customer-reviews">
+            <div class="review">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">JD</div>
+                        <div class="reviewer-name">John D.</div>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="review-title">Perfect fit and comfortable!</div>
+                <div class="review-date">Reviewed on October 15, 2023</div>
+                <div class="review-content">
+                    <p>I love this t-shirt! The material is soft and comfortable, and the fit is perfect. The design is exactly as shown in the pictures. I've already washed it a few times and it holds up well. Definitely recommend!</p>
+                </div>
+                <div class="review-helpful">
+                    <span>Was this review helpful?</span>
+                    <button>Yes (24)</button>
+                    <button>No (2)</button>
+                    <button>Report</button>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">SM</div>
+                        <div class="reviewer-name">Sarah M.</div>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="review-title">Great quality but runs large</div>
+                <div class="review-date">Reviewed on September 28, 2023</div>
+                <div class="review-content">
+                    <p>The shirt is well-made with good quality fabric, but it runs a bit large. I usually wear medium but could have gone with small in this one. The print is vibrant and hasn't faded after washing. Overall happy with the purchase.</p>
+                </div>
+                <div class="review-helpful">
+                    <span>Was this review helpful?</span>
+                    <button>Yes (18)</button>
+                    <button>No (1)</button>
+                    <button>Report</button>
+                </div>
+            </div>
+
+            <div class="review">
+                <div class="review-header">
+                    <div class="reviewer-info">
+                        <div class="reviewer-avatar">TP</div>
+                        <div class="reviewer-name">Taylor P.</div>
+                    </div>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="review-title">Love the design!</div>
+                <div class="review-date">Reviewed on September 10, 2023</div>
+                <div class="review-content">
+                    <p>The astronaut design is even cooler in person! The shirt is comfortable and fits true to size. My only minor complaint is that the neck is a little tight, but it's not uncomfortable. Would buy again!</p>
+                </div>
+                <div class="review-helpful">
+                    <span>Was this review helpful?</span>
+                    <button>Yes (12)</button>
+                    <button>No (0)</button>
+                    <button>Report</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="write-review">
+            <h3>Write a Review</h3>
+            <form class="review-form">
+                <div class="form-group">
+                    <label for="review-title">Review Title</label>
+                    <input type="text" id="review-title" placeholder="Summarize your review">
+                </div>
+                <div class="form-group">
+                    <label>Your Rating</label>
+                    <div class="rating-input">
+                        <input type="radio" id="star5" name="rating" value="5">
+                        <label for="star5"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="star4" name="rating" value="4">
+                        <label for="star4"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="star3" name="rating" value="3">
+                        <label for="star3"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="star2" name="rating" value="2">
+                        <label for="star2"><i class="fas fa-star"></i></label>
+                        <input type="radio" id="star1" name="rating" value="1">
+                        <label for="star1"><i class="fas fa-star"></i></label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="review-text">Your Review</label>
+                    <textarea id="review-text" rows="5" placeholder="Share your experience with this product"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="reviewer-name">Your Name</label>
+                    <input type="text" id="reviewer-name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="reviewer-email">Email Address</label>
+                    <input type="email" id="reviewer-email" placeholder="Enter your email">
+                </div>
+                <button type="submit" class="submit-review">Submit Review</button>
+            </form>
+        </div>
+    </div>
+   </section>
+
+    <footer  id ="footer" class="section-p1">
+        <div class="footer-container">
+            <div class="col">
+                <img src="imgs/Shop Style logo.png" class="logo" width="120" height="60">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road,Street 32,San Francisco</p>
+                <p><strong>Phone:</strong> +1 123 456 7890</p>
+                <p><strong>Email:</strong> xyz@abc-mail.com</p>
+                <p><strong>Working Hours:</strong> 9am-5pm ,Mon-Sat</p>
+                <div class="social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <ul>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms & Conditions</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Account</h4>
+                <ul>
+                    <p><a href="#">Track My Order</a></p>
+                    <p><a href="#">View Cart</a></p>
+                    <p><a href="#">My Wishlist</a></p>
+                    <p><a href="#">Sign In</a></p>
+                    <p><a href="#">Help</a></p>
+                </ul>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <div class="app-logo">
+                    <a href="#"><img src="imgs/pngegg (1).png" alt="" height="20px" width="20px"></a>
+                    <a href="#"><img src="imgs/036244d0e0e4e91e3052a6c58df92fc9.jpg" alt="" height="20px" width="20px"></a>
+                    <p>Secured Payment Gateways</p>
+                    <img src="imgs/visa-mastercard-american-express-logo-icons-set-vector-42788527.jpg" alt="" height="150px" width="190px">
+                </div>
+            </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>

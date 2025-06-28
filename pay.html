@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Shop Style</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section id="header">
+    <a href="#"><img src="imgs/Shop Style logo.png" class="logo" width="120" height="60"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+           <li><a href="javascript:void(0);" onclick="document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });">Contact</a></li>
+            <li><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+    </div>
+   </section>
+
+   <section id="page-header" class="checkout-header">
+    <h2>#Checkout</h2>
+    <p>Complete your purchase securely</p>
+   </section>
+
+   <section id="checkout" class="section-p1">
+    <div class="container">
+        <div class="billing-details">
+            <h3>Billing Details</h3>
+            <form class="checkout-form">
+                <div class="form-group">
+                    <label for="firstName">First Name *</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name *</label>
+                    <input type="text" id="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="company">Company Name (Optional)</label>
+                    <input type="text" id="company">
+                </div>
+                <div class="form-group">
+                    <label for="country">Country *</label>
+                    <select id="country" required>
+                        <option value="">Select a country...</option>
+                        <option value="US">United States</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="CA">Canada</option>
+                        <option value="AU">Australia</option>
+                        <option value="IN">India</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="address">Street Address *</label>
+                    <input type="text" id="address" placeholder="House number and street name" required>
+                    <input type="text" id="address2" placeholder="Apartment, suite, unit etc. (optional)">
+                </div>
+                <div class="form-group">
+                    <label for="city">Town / City *</label>
+                    <input type="text" id="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="state">State / County *</label>
+                    <input type="text" id="state" required>
+                </div>
+                <div class="form-group">
+                    <label for="postcode">Postcode / ZIP *</label>
+                    <input type="text" id="postcode" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone *</label>
+                    <input type="tel" id="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="create-account">
+                    <label for="create-account">Create an account?</label>
+                </div>
+                <div class="form-group">
+                    <h3>Additional Information</h3>
+                    <label for="notes">Order Notes (Optional)</label>
+                    <textarea id="notes" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <div class="order-summary">
+            <h3>Your Order</h3>
+            <div class="summary-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cartoon Astronaut T-Shirt × 1</td>
+                            <td>$50.00</td>
+                        </tr>
+                        <tr>
+                            <td>Blue Short Kurti × 1</td>
+                            <td>$50.00</td>
+                        </tr>
+                        <tr>
+                            <td>Subtotal</td>
+                            <td>$100.00</td>
+                        </tr>
+                        <tr>
+                            <td>Shipping</td>
+                            <td>Free Shipping</td>
+                        </tr>
+                        <tr class="total">
+                            <td>Total</td>
+                            <td>$100.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="payment-methods">
+                <div class="method">
+                    <input type="radio" id="bank" name="payment" checked>
+                    <label for="bank">Direct Bank Transfer</label>
+                    <div class="method-details">
+                        <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                    </div>
+                </div>
+                <div class="method">
+                    <input type="radio" id="check" name="payment">
+                    <label for="check">Check Payments</label>
+                    <div class="method-details">
+                        <p>Please send a check to Store Name, Store Street, Store Town, Store State/County, Store Postcode.</p>
+                    </div>
+                </div>
+                <div class="method">
+                    <input type="radio" id="cod" name="payment">
+                    <label for="cod">Cash On Delivery</label>
+                    <div class="method-details">
+                        <p>Pay with cash upon delivery.</p>
+                    </div>
+                </div>
+                <div class="method">
+                    <input type="radio" id="paypal" name="payment">
+                    <label for="paypal">PayPal</label>
+                    <div class="method-details">
+                        <p>Pay via PayPal; you can pay with your credit card if you don't have a PayPal account.</p>
+                        <img src="imgs/paypal.png" alt="PayPal" width="100">
+                    </div>
+                </div>
+                <div class="method">
+                    <input type="radio" id="card" name="payment">
+                    <label for="card">Credit/Debit Card</label>
+                    <div class="method-details card-details">
+                        <div class="form-group">
+                            <label for="card-number">Card Number</label>
+                            <input type="text" id="card-number" placeholder="1234 5678 9012 3456">
+                        </div>
+                        <div class="form-group">
+                            <label for="card-name">Name on Card</label>
+                            <input type="text" id="card-name" placeholder="John Smith">
+                        </div>
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="expiry">Expiry Date</label>
+                                <input type="text" id="expiry" placeholder="MM/YY">
+                            </div>
+                            <div class="form-group">
+                                <label for="cvv">CVV</label>
+                                <input type="text" id="cvv" placeholder="123">
+                            </div>
+                        </div>
+                        <img src="imgs/cards.png" alt="Accepted Cards" width="200">
+                    </div>
+                </div>
+                <div class="terms">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I have read and agree to the website <a href="#">terms and conditions</a> *</label>
+                </div>
+                <button type="submit" class="place-order">Place Order</button>
+            </div>
+        </div>
+    </div>
+   </section>
+
+     <footer  id ="footer" class="section-p1">
+        <div class="footer-container">
+            <div class="col">
+                <img src="imgs/Shop Style logo.png" class="logo" width="120" height="60">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road,Street 32,San Francisco</p>
+                <p><strong>Phone:</strong> +1 123 456 7890</p>
+                <p><strong>Email:</strong> xyz@abc-mail.com</p>
+                <p><strong>Working Hours:</strong> 9am-5pm ,Mon-Sat</p>
+                <div class="social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <ul>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms & Conditions</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Account</h4>
+                <ul>
+                    <p><a href="#">Track My Order</a></p>
+                    <p><a href="#">View Cart</a></p>
+                    <p><a href="#">My Wishlist</a></p>
+                    <p><a href="#">Sign In</a></p>
+                    <p><a href="#">Help</a></p>
+                </ul>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <div class="app-logo">
+                    <a href="#"><img src="imgs/pngegg (1).png" alt="" height="20px" width="20px"></a>
+                    <a href="#"><img src="imgs/036244d0e0e4e91e3052a6c58df92fc9.jpg" alt="" height="20px" width="20px"></a>
+                    <p>Secured Payment Gateways</p>
+                    <img src="imgs/visa-mastercard-american-express-logo-icons-set-vector-42788527.jpg" alt="" height="150px" width="190px">
+                </div>
+            </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Shop Style</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section id="header">
+    <a href="#"><img src="imgs/Shop Style logo.png" class="logo" width="120" height="60"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+           <li><a href="javascript:void(0);" onclick="document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });">Contact</a></li>
+            <li><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        </ul>
+    </div>
+   </section>
+
+   <section id="page-header" class="cart-header">
+    <h2>#YourCart</h2>
+    <p>Review and manage your items</p>
+   </section>
+
+   <section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="imgs/1_c443a042-e4e0-4891-9138-ac6d1dc6c6b7.webp" alt=""></td>
+                <td>Cartoon Astronaut T-Shirt</td>
+                <td>$50.00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="imgs/-473Wx593H-467099247-blue-MODEL.avif" alt=""></td>
+                <td>Blue Short Kurti</td>
+                <td>$50.00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="imgs/220411_StFrock_Jayde_60580-RED-ORG_0953_2048x.webp" alt=""></td>
+                <td>Office Wear Solid Top</td>
+                <td>$45.00</td>
+                <td><input type="number" value="1" min="1"></td>
+                <td>$45.00</td>
+            </tr>
+        </tbody>
+    </table>
+   </section>
+
+   <section id="cart-add" class="section-p1">
+    <div id="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon Code">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+    <div id="subtotal">
+        <h3>Cart Totals</h3>
+        <table>
+            <tr>
+                <td>Cart Subtotal</td>
+                <td>$145.00</td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>Free</td>
+            </tr>
+            <tr>
+                <td><strong>Total</strong></td>
+                <td><strong>$145.00</strong></td>
+            </tr>
+        </table>
+        <button class="normal">Proceed to Checkout</button>
+    </div>
+   </section>
+
+   <footer  id ="footer" class="section-p1">
+        <div class="footer-container">
+            <div class="col">
+                <img src="imgs/Shop Style logo.png" class="logo" width="120" height="60">
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> 562 Wellington Road,Street 32,San Francisco</p>
+                <p><strong>Phone:</strong> +1 123 456 7890</p>
+                <p><strong>Email:</strong> xyz@abc-mail.com</p>
+                <p><strong>Working Hours:</strong> 9am-5pm ,Mon-Sat</p>
+                <div class="social">
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <ul>
+                    <p><a href="#">About Us</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                    <p><a href="#">Privacy Policy</a></p>
+                    <p><a href="#">Terms & Conditions</a></p>
+                    <p><a href="#">Contact Us</a></p>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Account</h4>
+                <ul>
+                    <p><a href="#">Track My Order</a></p>
+                    <p><a href="#">View Cart</a></p>
+                    <p><a href="#">My Wishlist</a></p>
+                    <p><a href="#">Sign In</a></p>
+                    <p><a href="#">Help</a></p>
+                </ul>
+            </div>
+            <div class="col install">
+                <h4>Install App</h4>
+                <div class="app-logo">
+                    <a href="#"><img src="imgs/pngegg (1).png" alt="" height="20px" width="20px"></a>
+                    <a href="#"><img src="imgs/036244d0e0e4e91e3052a6c58df92fc9.jpg" alt="" height="20px" width="20px"></a>
+                    <p>Secured Payment Gateways</p>
+                    <img src="imgs/visa-mastercard-american-express-logo-icons-set-vector-42788527.jpg" alt="" height="150px" width="190px">
+                </div>
+            </footer>
+   <script src="script.js"></script>
+</body>
+</html>
