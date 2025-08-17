@@ -3,6 +3,7 @@
 
 A modern, responsive online shopping platform tailored specifically for female buyers, offering a seamless user experience with dynamic filters, secure payments, product reviews, and a helpful chatbot for order and product queries.
 
+
 ---
 
 ## 🌐 Features
