@@ -24,6 +24,7 @@ A modern, responsive online shopping platform tailored specifically for female b
 
 ---
 
+
 ## 🖥️ Frontend
 
 Developed using standard web technologies for a responsive and user-friendly interface:
