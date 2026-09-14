@@ -22,6 +22,7 @@ A modern, responsive online shopping platform tailored specifically for female b
 - Provides basic product and order information  
 - Assists users in navigating the website  
 
+
 ---
 
 ## 🖥️ Frontend
