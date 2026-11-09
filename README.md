@@ -22,9 +22,9 @@ A modern, responsive online shopping platform tailored specifically for female b
 
 ### 💬 Chatbot Support
 - Provides basic product and order information  
-- Assists users in navigating the website  
+- Assists users in navigating the website
 
-
+  
 ---
 
 ## 🖥️ Frontend
